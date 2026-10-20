@@ -10,7 +10,7 @@ const players = [
   { name: "Chloe", score: 67 },
   { name: "Dev", score: 91 },
 ];
-
+console.log(players);
 console.log(topThreePlayers(players));
 
 async function fetchUsers() {
