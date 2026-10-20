@@ -1,5 +1,5 @@
 type Player = { name: string; score: number };
-const players = [
+const players: Player[] = [
   { name: "Asha", score: 82 },
   { name: "Ben", score: 95 },
   { name: "Chloe", score: 67 },
