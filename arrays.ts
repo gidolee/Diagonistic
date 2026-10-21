@@ -18,3 +18,8 @@ console.log(names);
 // Exercise 3: player that starts with D
 const firstD = players.find((player) => player.name.startsWith("D"));
 console.log(firstD);
+
+// Exercise 4: Average score
+const averageScore =
+  players.reduce((acc, player) => acc + player.score, 0) / players.length;
+console.log(averageScore);
